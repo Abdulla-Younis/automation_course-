@@ -8,7 +8,7 @@ public class hangman {
 		String[] word_list = { "automation", "performance", "security", "innovation", "creativity"};
 		String rand_word;
 		char[] hidden_word;
-		Scanner keyboard = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		String user_guess;
 		int miss_chance = 0;
 		char[] missed = new char[9];
@@ -35,7 +35,7 @@ public class hangman {
 			}
 			
 			System.out.print( "\nGuess: " );
-			user_guess = keyboard.next();
+			user_guess = input.next();
 			letter_found = false;
 			
 			for ( int i = 0; i < rand_word.length(); i++ ) {
