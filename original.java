@@ -12,7 +12,7 @@ public class original {
 		System.out.println("\nCircle:");
 		circle circle1 = new circle();
 		circle circle2 = new circle(5.5);
-		circle circle3 = new circle(7.25,"red",false);
+		circle circle3 = new circle(7.25,"grey",false);
 		
 		System.out.printf("The Area of Circle1 is: %.2f\n",circle1.getArea());
 		System.out.printf("The Perimeter of Circle1 is: %.2f\n",circle1.getPerimeter());
@@ -27,7 +27,7 @@ public class original {
 		System.out.println("\nRectangle:");
 		rec rectangle1 = new rec();
 		rec rectangle2 = new rec(6.2,7.4);
-		rec rectangle3 = new rec(3.1,2.3,"yellow",false);
+		rec rectangle3 = new rec(3.1,2.3,"blue",false);
 		
 		System.out.printf("The Area of rectangle1 is: %.2f\n",rectangle1.getArea());
 		System.out.printf("The Perimeter of rectangle1 is: %.2f\n",rectangle1.getPerimeter());
