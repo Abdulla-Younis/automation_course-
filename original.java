@@ -22,7 +22,7 @@ public class original {
 		System.out.println("Account1 is: " + account1.toString());
 		System.out.println("Transfer 2000 from account1 to account 2: ");
 		account1.transferTo(account3, 2000);
-		System.out.println("Account balance after transfer: ");
+		System.out.println("Account balance after transfering: ");
 		System.out.println("Account1 is: " + account1.toString());
 		System.out.println("Account2 is: " + account2.toString());
 		
@@ -37,7 +37,7 @@ public class original {
 		System.out.println("Account2 is: " + account2.toString());
 		System.out.println("Transfer 750 from account2 to account 3: ");
 		account2.transferTo(account3, 750);
-		System.out.println("Account balance after transfer: ");
+		System.out.println("Account balance after transfering: ");
 		System.out.println("Account2 is: " + account2.toString());
 		System.out.println("Account3 is: " + account3.toString());
 		
@@ -52,7 +52,7 @@ public class original {
 		System.out.println("Account3 is: " + account3.toString());
 		System.out.println("Transfer 1000 from account3 to account2: ");
 		account3.transferTo(account2, 1000);//account3,
-		System.out.println("Account balance after transfer: ");
+		System.out.println("Account balance after transfering: ");
 		System.out.println("Account3 is: " + account3.toString());
 		System.out.println("Account2 is: " + account2.toString());
 
