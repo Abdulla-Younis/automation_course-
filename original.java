@@ -59,7 +59,7 @@ public class original {
 		System.out.println("\n \n");
 		
 		System.out.printf("The Number of Accounts created are: %d\n", account1.getAccountsNo());
-		System.out.printf("Number of Accounts created after resetting: %d", account1.resetAccountsNo());
+		System.out.printf("Number of Accounts created after resetting: %d\n", account1.resetAccountsNo());
 
 		
 	}
